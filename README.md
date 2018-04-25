@@ -23,7 +23,11 @@ To generate your NodeJS project you can just type this command
 ```
 sudo ./api-generate
 ```
-Now the script is installing all the packages that you'll need to make it work
+Now the script is installing all the packages that you'll need to make it work !
+You can launch the server to see if it works
+```
+node app.js
+```
 
 ### Routes
 
@@ -32,7 +36,16 @@ Api-generate can generate your own route file
 ```
 sudo ./api-generate -route "name of route" "endpoint (/user for example)"
 ```
-Your routes file are in "/lib" and you can edit it to add some functionnalities
+Your routes file are in "/lib" and you can edit it to add some functionnalities.
+
+### Examples
+Imagine that I want a route file for my users.
+
+```
+
+sudo ./api-generate -route users /users
+```
+Go to "127.0.0.1:8000/users" to see the result
 
 ## Authors
 
