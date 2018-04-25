@@ -38,8 +38,9 @@ sudo ./api-generate -route "name of route" "endpoint (/user for example)"
 ```
 Your routes file are in "/lib" and you can edit it to add some functionnalities.
 
-### Examples
-Imagine that I want a route file for my users.
+### Example
+Imagine that I want a route file for my users.\n
+Now you have your "users.js" route file
 
 ```
 
